@@ -1,6 +1,25 @@
+.containerr{
+
+    margin: auto;
+    width: auto;
+    height: auto;
+    background: url(../assets/images/boostingBackgroundImage.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+
 
 .ours {
-    position: fixed;
+    
     right: 0;
     left: 0;
     border-width: 0 0 1px;
@@ -30,32 +49,160 @@ border: 1px solid black;
 #rightRow {
     width: 100%;
     max-width: 100%;
-    margin-left: 1300px;
+    margin-left: 68%;
    
-
 }
 
 .why-us {
-
-    margin-top: 200px;
+    
+    margin-top: 10%;
+    width: 100%;    
 }
 
 #textbox {
-    width: 1000px;
-    border: 1px solid rgb(224, 224, 224);
+   
+    margin-left: 25%;
+    border: 2px solid rgb(102, 178, 255);
     background-color: rgb(153, 204, 255, 0.3);
+    border-radius: 3%;
+}
+
+#textbox:hover  {
+    
+    margin-left: 25%;
+    border: 2px solid rgb(224, 224, 224);
+    background-color: rgb(153, 204, 255, 0.7);
+    border-radius: 3%;
 }
 
 #textbox1 {
-    width: 1000px;
-    border: 1px solid rgb(224, 224, 224);
+    
+    margin-left: 15%;
+    border: 2px solid rgb(102, 178, 255);
     background-color: rgb(153, 204, 255, 0.3);
+    border-radius: 3%;
+    
 }
 
-#textbowrow {
-
-    background-color: white; 
-    margin-left: -200px; 
-    float: left; 
-    width: 1500px;
+#textbox1:hover {
+    
+    margin-left: 15%;
+    border: 2px solid rgb(224, 224, 224);
+    background-color: rgb(153, 204, 255, 0.7);
+    border-radius: 3%;
+    
 }
+
+
+.textSmth {
+    text-align: justify;
+    padding-top: 0%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.2%;
+    font-family: Georgia;
+    font-weight: '';
+    font-size: 16px;
+    
+}
+
+.titelBox {
+
+    text-align: center;
+    padding-top: 2.8%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    font-family: Georgia;
+    font-weight: '';
+    font-size: 30px;
+}
+
+.lineBelowTitel {
+    width: 109.5%;
+    border: 1px solid rgb(102, 178, 255);
+    margin-top: 5px;
+    margin-left: -5%;
+    
+}
+
+.textbox:hover .lineBelowTitel {
+    width: 109.5%;
+    border: 1px solid  rgb(224, 224, 224);
+    margin-top: 5px;
+    margin-left: -5%;
+
+}
+
+
+.lineBelowTitel1 {
+    width: 109.5%;
+    border: 1px solid rgb(102, 178, 255);
+    margin-top: -18px;
+    margin-left: -5%;
+    
+}
+
+
+.lineBelowTitel1:hover {
+    width: 109.5%;
+    border: 1px solid  rgb(224, 224, 224);
+    margin-top: -18px;
+    margin-left: -5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+aiosdjioasdjiaosdjioas
+*/
+
+@media only screen and (min-width: 3840px) {
+
+.lineBelowTitel {
+    width: 104.5%;
+    border: 2px solid;
+    margin-left: -2.5%;
+}
+
+}
+
+/*
+oiasjfioasfd
+*/
